@@ -43,8 +43,8 @@ def main():
 
     '''
     search = "https://maplestory.nexon.com/Ranking/World/Total?c="
-    nicknames = ['늙어가는사람', '엘프여왕쥬르', '클언니', '클누나아란', '클누나스커', '지밍곰', '클츠', '클형', '클쏠', '클산', '클중', '쥬공', '1907007', '포니테일봄', '쥐엔장아델쨩', '정수리마녀님', '클누나야', '스즈야스키', '클누나팬텀', '심미미보', '클오빠', '안지영이에영', '클쁜', '손으로출금', '혈족루미너스', '토우카스키', '심미로져', '클누나데벤', '클누나에반', '술을들이키네', '클누나플위', '클핑', '클팽', '클컹', '클령', '클상', '클번', '클밀', '클찡', '클로이바라기', '청룡메데']
-    mapleM = ['상큼한서새봄']
+    nicknames = []
+    mapleM = []
 
     union = take_level_starforce(nicknames)
     union.sort(key=lambda x: (x[1], x[2]), reverse=True)
@@ -75,12 +75,6 @@ def main():
 
     union_level = union_level_power(union[0][0])
     print(union_level)
-
-
-
-
-
-
 
 
 main()
