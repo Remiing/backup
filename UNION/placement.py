@@ -1,7 +1,3 @@
-
-
-
-
 def read():
     read_data = open('union.txt', 'r')
     characters = []
@@ -17,9 +13,5 @@ def read():
 #def placement():
 
 
-
 if __name__ == '__main__':
     read()
-
-
-
