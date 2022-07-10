@@ -8,7 +8,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 pd.set_option('display.max_colwidth', None)
 
-api_key = "RGAPI-e4a9d93e-6cf1-47a1-af1d-399f92748ade"
+api_key = ""
 
 
 def summoner_summoners(summonerName):
@@ -141,7 +141,7 @@ def print_list_dict(list_dict):
             print(key, '\t', value)
 
 def main():
-    summonerName = "너와떠나는여행"
+    summonerName = ""
     summoner_info = summoner_summoners(summonerName)
     encryptedSummonerId = summoner_info['id']
     encryptedPUUID = summoner_info['puuid']
@@ -149,9 +149,6 @@ def main():
 
     print(encryptedSummonerId)
     entry = league_entries(encryptedSummonerId)
-
-
-
 
 
 main()
