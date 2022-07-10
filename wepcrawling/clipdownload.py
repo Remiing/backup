@@ -68,8 +68,7 @@ def crawling2(toss):
 
 
 def url():
-    clip_url = "https://www.twitch.tv/saddummy/clips?filter=clips&range=all"
-
+    clip_url = ""
     return clip_url
 
 
